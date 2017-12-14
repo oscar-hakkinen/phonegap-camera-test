@@ -12,8 +12,9 @@ function capturePhoto() {
                                 
                                 { 
                                     quality: 100,
-	                               destinationType: destinationType.DATA_URL, 
+	                               destinationType: destinationType.FILE_URI, 
                                     encodingType: EncodingType.PNG
+        
     
     });
 }
