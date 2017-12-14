@@ -20,6 +20,7 @@ function capturePhoto() {
 }
 	
 function onPhotoDataSuccess(imageData) {
+    alert(imageData);
 	var image = document.getElementById('image');
 	image.style.display = 'block';
 	image.src = "data:image/png;base64," + imageData;
